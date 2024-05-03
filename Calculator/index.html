@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="cal-container">
+      <input id="display" readonly>
+      <div class="keys">
+        <div class="one">
+
+            <button onclick='clickvalue("+")'>+</button>
+            <button onclick='clickvalue("7")'>7</button>
+            <button onclick='clickvalue("8")'>8</button>
+            <button onclick='clickvalue("9")'>9</button>
+        </div>
+        <div class="one">
+
+            <button onclick='clickvalue("-")'>-</button>
+            <button onclick='clickvalue("4")'>4</button>
+            <button onclick='clickvalue("5")'>5</button>
+            <button onclick='clickvalue("6")'>6</button>
+        </div>
+        <div class="one">
+
+            <button onclick='clickvalue("*")'>*</button>
+            <button onclick='clickvalue("1")'>1</button>
+            <button onclick='clickvalue("2")'>2</button>
+            <button onclick='clickvalue("3")'>3</button>
+        </div>
+        <div class="one">
+
+            <button onclick='clickvalue("/")'>/</button>
+            <button onclick='clickvalue("0")'>0</button>
+            <button onclick='clickvalue(".")'>.</button>
+            <button onclick='calculatevalue()'>=</button>
+        </div>
+        <div class="one">
+
+            <button onclick="clearvalue()">C</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
