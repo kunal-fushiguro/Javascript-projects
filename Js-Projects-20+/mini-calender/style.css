@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#AFD8E7;
+    /* flex-direction: column; */
+}
+.container{
+    width: 50%;
+    height: 50%;
+    /* border: 1px solid red; */
+    border-radius: 4rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.month{
+    width: 100%;
+    height: 20%;
+    background-color: #FF0001;
+    /* border: 1px solid red; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+.others{
+    width: 100%;
+    height: 80%;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.day{
+    width: 100%;
+    height: 20%;
+    /* text-align: center; */
+    /* border: 1px solid red; */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+.year{
+    width: 100%;
+    height: 20%;
+    /* text-align: center; */
+    /* border: 1px solid red; */
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.date{
+    width: 100%;
+    height: 60%;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
